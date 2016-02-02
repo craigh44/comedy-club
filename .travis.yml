@@ -5,3 +5,8 @@ node_js:
   - "0.12"
   - "0.11"
   - "0.10"
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: "f9521f65-f05c-4e1f-af15-6d6dd3618451"
